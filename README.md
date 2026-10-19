@@ -20,7 +20,12 @@ tests/
   elements/      Input, button, select, checkbox, textarea specs
   forms/         Practice form specs
   navigation/    Home page navigation specs
+docs/            Sample bug report (BUG-UI-001)
 ```
+
+Sample documentation lives in `docs/`:
+
+- [`BUG-UI-001_inconsistent_page_width.pdf`](docs/BUG-UI-001_inconsistent_page_width.pdf): a sample bug report for an inconsistent page width issue.
 
 Path aliases (`@pageObjects/*`, `@testData/*`, `@enums/*`, `@fixture/*`) are defined in `tsconfig.json`.
 
