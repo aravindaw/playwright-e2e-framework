@@ -1,0 +1,32 @@
+{
+  "name": "playwright-e2e-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript E2E demo framework (Page Object Model) for https://www.qa-practice.com",
+  "packageManager": "pnpm@10.17.1",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install:browsers": "playwright install chromium firefox webkit",
+    "test": "playwright test",
+    "test:chromium": "playwright test --project chromium",
+    "test:firefox": "playwright test --project firefox",
+    "test:webkit": "playwright test --project webkit",
+    "test:smoke": "playwright test --grep @SMOKE",
+    "test:regression": "playwright test --grep @REGRESSION",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:last-failed": "playwright test --last-failed",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.10.10",
+    "prettier": "^2.8.8",
+    "typescript": "^5.9.2"
+  }
+}

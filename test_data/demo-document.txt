@@ -1,0 +1,4 @@
+Demo document for the QA Practice upload test.
+
+This file is used by the practice form spec to verify that a file
+can be attached and that its name is shown on the confirmation.
