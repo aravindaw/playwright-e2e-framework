@@ -1,5 +1,9 @@
 # playwright-e2e-framework
 
+[![Smoke Tests](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/smoke.yml/badge.svg)](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/smoke.yml)
+[![Regression Tests](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/regression.yml/badge.svg)](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/regression.yml)
+[![E2E Tests](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/e2e.yml/badge.svg)](https://github.com/aravindaw/playwright-e2e-framework/actions/workflows/e2e.yml)
+
 A demo of a clean, maintainable end-to-end test framework built with Playwright and TypeScript
 using the Page Object Model (POM). It tests [QA Practice](https://www.qa-practice.com/): inputs,
 buttons, selects, checkboxes, textareas, the practice form and home page navigation.
